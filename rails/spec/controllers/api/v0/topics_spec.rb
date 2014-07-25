@@ -7,7 +7,7 @@ describe Api::V0::TopicsController do
     before { get :index, :format => :json }
 
     it "should receive an :ok HTTP response from the server when calling /api/v0/topics" do
-      expect(response.response_code).to equal(:ok)
+      expect(response.response_code).to equal(200)
     end
   end
 end
