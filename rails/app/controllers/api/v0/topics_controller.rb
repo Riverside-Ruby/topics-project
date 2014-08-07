@@ -5,4 +5,8 @@ class Api::V0::TopicsController < ApplicationController
     respond_with Topic.all
   end
 
+  def show
+    respond_with Topic.find(params[:id])
+  end
+
 end
