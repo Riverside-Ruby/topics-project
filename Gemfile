@@ -26,6 +26,10 @@ gem 'spring',        group: :development
 
 gem 'tzinfo-data'
 
+gem 'apipie-rails'
+
+gem 'maruku'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

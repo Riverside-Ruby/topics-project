@@ -29,6 +29,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
+    apipie-rails (0.2.3)
+      json
     arel (5.0.1.20140414130214)
     better_errors (1.1.0)
       coderay (>= 1.0.0)
@@ -78,6 +80,7 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    maruku (0.7.2)
     method_source (0.8.2)
     mime-types (1.25.1)
     minitest (5.4.0)
@@ -180,12 +183,14 @@ PLATFORMS
 
 DEPENDENCIES
   active_model_serializers
+  apipie-rails
   better_errors
   binding_of_caller
   coffee-rails (~> 4.0.0)
   guard-rspec
   jbuilder (~> 2.0)
   jquery-rails
+  maruku
   pry-doc
   pry-rails
   rails (= 4.1.1)
