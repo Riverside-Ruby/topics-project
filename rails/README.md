@@ -1,7 +1,7 @@
 # RRUG: Suggest a Topic Project
 
 ## Overview
-This directory contains the Ruby on Rails project that will host our API.  Running this project requires Ruby 1.9.3 or later to be installed on your computer.  
+This directory contains the Ruby on Rails project that will host our API.  Running this project requires Ruby 1.9.3 or later to be installed on your computer.  The Ember front-end is located at [https://github.com/RiversideJS/ember-topics](https://github.com/RiversideJS/ember-topics).
 
 ## Getting Started
 First you'll want to make sure your development environment is set up correctly.
