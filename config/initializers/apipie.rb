@@ -7,7 +7,7 @@ Apipie.configure do |config|
   config.app_info = <<EOF
 # Overview
 
-Provides an API to manage topic submissions for the Riverside Ruby and Riverside JS user groups.
+Provides an API to manage topic submissions for the Riverside Ruby and Riverside JS user groups.  Visit [GitHub](https://github.com/Riverside-Ruby/topics-project) for installation instructions and code.
 
 EOF
 end
