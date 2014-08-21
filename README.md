@@ -9,10 +9,10 @@ First you'll want to make sure your development environment is set up correctly.
 ### Download this repo from GitHub
 Make sure you have downloaded this repo from GitHub onto your computer.  Open a shell and enter this directory.
 
-### Make sure you have ruby 1.9.3. or later installed (2.1.1 recommended)
+### Make sure you have ruby 1.9.3. or later installed (2.1.2 recommended)
 From your command line, type `ruby -v` and press Enter.  If ruby is installed correctly, this command should output something like the following:
 
-ruby 2.1.1p76 (2014-02-24 revision 45161) [x86_64-darwin12.0]
+ruby 2.1.2p95 (2014-05-08 revision 45877) [x86_64-darwin13.0]
 
 If you get a "command not found" error, then you do not have ruby on your computer or the path is not being set correctly in your command prompt.
 
