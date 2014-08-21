@@ -20,7 +20,7 @@ If you have a version less than 1.9.3, you will need to upgrade before running t
 
 
 ### Run the bundle command
-Type the `bundle` command.  This will fetch Rails 4.1.1 from the internet (if you don't already have it) and any other  dependencies required to run this project.
+Type the `bundle install --without production` command.  This will fetch Rails 4.1.1 from the internet (if you don't already have it) and any other dependencies required to run this project.
 
 ### Make sure your rails server starts
 Type `rails server` into the command prompt.  After it finishes loading, open a web browser and enter `localhost:3000` in the address bar.  This should load a "Hello World" page.
