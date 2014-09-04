@@ -53,6 +53,8 @@ group :development, :test do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'sqlite3'
+  gem "factory_girl_rails", "~> 4.0"
+  gem 'faker', '~> 1.4'
 end
 
 group :production do
