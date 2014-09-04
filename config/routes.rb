@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   end
 
   root "apipie/apipies#index"
+
+  get "topics" => "topics#index"
 end
