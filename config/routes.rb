@@ -8,5 +8,5 @@ Rails.application.routes.draw do
 
   root "apipie/apipies#index"
 
-  get "topics" => "topics#index"
+  resources :topics
 end
